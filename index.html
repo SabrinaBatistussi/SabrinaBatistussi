@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabrina Eddy Batistussi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FAF9F6; /* Cor de fundo bege claro */
+            color: #333;
+        }
+        header {
+            background-color: #E8D3C3; /* Nude */
+            color: #333;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        h1, h2 {
+            color: #A67B5B; /* Cor rose */
+        }
+        .profile-img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 50%;
+            width: 150px;
+            height: 200px;
+            background-color: #ddd; /* Placeholder for image */
+        }
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        }
+        .skills-list, .contact-info {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills-list li, .contact-info li {
+            margin: 5px 0;
+            color: #555;
+        }
+        .contact-form label {
+            display: block;
+            margin: 10px 0 5px;
+            color: #555;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #F4F1EC; /* Cinza claro */
+        }
+        .contact-form button {
+            background-color: #A67B5B; /* Cor rose */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #915B46; /* Tom mais escuro de rose */
+        }
+        .map-container {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sabrina Eddy Batistussi</h1>
+</header>
+
+<div class="container">
+    <section class="section" id="sobre-mim">
+        <h2>Sobre Mim</h2>
+        <div class="profile-img"></div>
+        <p>Graduada em Psicologia, Pós graduação em sexualidade humana, pós graduação em psicologia organizacional e do trabalho. Sexóloga na equipe multiprofissional de dor pélvica crônica e endometriose Dr. Namir Cavalli. Redutora de danos.</p>
+    </section>
+
+    <section class="section" id="habilidades">
+        <h2>Habilidades</h2>
+        <ul class="skills-list">
+            <li>Atendimento clínico presencial e online</li>
+            <li>Atendimento humanizado e acessível</li>
+            <li>Acompanhamento hospitalar em procedimentos cirúrgicos</li>
+        </ul>
+    </section>
+
+    <section class="section" id="contato">
+        <h2>Contato</h2>
+        <ul class="contact-info">
+            <li>Telefone: (45) 9992-5405</li>
+            <li>Email: <a href="mailto:sabrinabatistussi@hotmail.com">sabrinabatistussi@hotmail.com</a></li>
+            <li>Instagram: <a href="https://www.instagram.com/psico.sabrinabatistussi" target="_blank">@psico.sabrinabatistussi</a></li>
+        </ul>
+        <form class="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <div class="map-container">
+            <h3>Atendimento Presencial</h3>
+            <p>Clínica Salus</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.9202045049613!2d-122.08424968469336!3d37.4220657798241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb5d6b2baf82d%3A0xb63418f5a6a2e6b7!2sGoogleplex!5e0!3m2!1sen!2sus!4v1620210402012!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
